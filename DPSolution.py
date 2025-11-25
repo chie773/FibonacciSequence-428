@@ -1,3 +1,9 @@
+# Time Complexity: O(n)
+# Space Complexity: O(n) 
+# Drawbacks:
+# 1) The bottom-up methods stores all values from 0 to n, so it is wasteful for large n values
+# 2) It cannot skip intermediate results and has to compute every Fibonacci number to n
+
 def fib_dp(n):
     if n <= 1:
         return n
