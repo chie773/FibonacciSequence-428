@@ -4,7 +4,6 @@
 # Drawbacks: 
 # 1) explodes exponentially for inputs above 45
 # 2) repeats subproblems many times, such as fib(38)
-#
 
 def fib_recursive(n):
     if n <= 1:
@@ -14,3 +13,4 @@ def fib_recursive(n):
 
 if __name__ == "__main__":
     print(fib_recursive(10))
+
