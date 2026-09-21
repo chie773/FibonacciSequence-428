@@ -1,6 +1,9 @@
 # Fibonacci Sequence
 
 
+
+This project is cooked
+
 This project is an in depth analysis of a very common Dynamic Programming problem that many cs majors encounter within the early stages of their tech journey, **Fibonacci Sequence**.
 
 
